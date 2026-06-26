@@ -1,0 +1,21 @@
+Category,Model,MAE,RMSE,R²,MAPE%
+Clothing,Linear Regression,2079.0,2644.0,0.8448,3.47
+Clothing,Ridge Regression,2067.0,2628.0,0.8467,3.45
+Clothing,Random Forest,2518.0,3128.0,0.7829,4.18
+Clothing,Gradient Boosting,3058.0,3717.0,0.6933,5.0
+Electronics,Linear Regression,3110.0,4048.0,0.8393,2.83
+Electronics,Ridge Regression,3010.0,3978.0,0.8448,2.73
+Electronics,Random Forest,4643.0,6066.0,0.639,4.24
+Electronics,Gradient Boosting,4092.0,5187.0,0.736,3.69
+Groceries,Linear Regression,3444.0,4344.0,0.706,4.03
+Groceries,Ridge Regression,3411.0,4316.0,0.7099,3.98
+Groceries,Random Forest,4100.0,5134.0,0.5895,4.74
+Groceries,Gradient Boosting,4014.0,5013.0,0.6085,4.65
+Home & Garden,Linear Regression,1858.0,2370.0,0.8289,2.78
+Home & Garden,Ridge Regression,1868.0,2340.0,0.8332,2.79
+Home & Garden,Random Forest,2868.0,3589.0,0.6076,4.32
+Home & Garden,Gradient Boosting,2644.0,3226.0,0.683,3.92
+Sports,Linear Regression,1887.0,2372.0,0.8221,2.56
+Sports,Ridge Regression,1923.0,2389.0,0.8195,2.6
+Sports,Random Forest,2219.0,2980.0,0.7192,2.99
+Sports,Gradient Boosting,2684.0,3256.0,0.6648,3.6
