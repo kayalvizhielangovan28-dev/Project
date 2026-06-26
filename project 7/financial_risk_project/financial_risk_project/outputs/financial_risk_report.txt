@@ -1,0 +1,91 @@
+====================================================================
+  FINANCIAL RISK ASSESSMENT REPORT
+  Generated: 2026-06-26 06:43:48
+====================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------
+  Portfolio analysed : 2,000 loans across 8 sectors & 7 credit grades
+  Total Exposure     : $348,786,358
+  High-Risk Exposure : $139,430,707  (40.0% of portfolio)
+  Medium-Risk Exp.   : $134,472,030  (38.6%)
+  Low-Risk Exposure  : $74,883,622  (21.5%)
+
+KEY RISK METRICS
+--------------------------------------------------------------------
+  Avg Portfolio Risk Score  : 24.9 / 100
+  High-Risk Loans (score>66): 21.4% of portfolio
+  Avg Sharpe Ratio          : -0.728
+  Avg 30-Day Volatility     : 8.76%
+  Avg Debt-to-Income Ratio  : 0.615
+  Avg Loan-to-Value Ratio   : 0.795
+  Avg Credit Score          : 660
+
+RISK DISTRIBUTION
+--------------------------------------------------------------------
+  Low     :   800 loans  (40.0%)
+  Medium  :   700 loans  (35.0%)
+  High    :   500 loans  (25.0%)
+
+MODEL PERFORMANCE SUMMARY
+--------------------------------------------------------------------
+  Logistic Regression         : CV Acc = 0.817 ± 0.010
+  Random Forest               : CV Acc = 0.838 ± 0.025
+  Gradient Boosting           : CV Acc = 0.840 ± 0.029
+
+  Best Model : Gradient Boosting  (CV Accuracy = 0.840)
+
+TOP RISK INDICATORS  (by feature importance)
+--------------------------------------------------------------------
+  num_defaults_history        : 0.1735
+  loan_to_income              : 0.1444
+  debt_to_income              : 0.1245
+  credit_score                : 0.1018
+  risk_premium                : 0.0753
+  interest_rate               : 0.0725
+
+SECTOR RISK ANALYSIS
+--------------------------------------------------------------------
+  Highest Risk Sector : Healthcare  (avg score 28.2)
+  Healthcare        : risk=28.2  default_rate=28.7%  exposure=$49,957,836
+  Consumer          : risk=27.1  default_rate=26.8%  exposure=$48,504,776
+  Industrial        : risk=25.8  default_rate=25.9%  exposure=$39,514,061
+  Finance           : risk=24.6  default_rate=24.5%  exposure=$35,662,938
+  Technology        : risk=24.5  default_rate=24.3%  exposure=$46,227,009
+  Utilities         : risk=24.5  default_rate=24.7%  exposure=$38,881,072
+  Real Estate       : risk=23.4  default_rate=25.6%  exposure=$42,650,379
+  Energy            : risk=20.8  default_rate=18.9%  exposure=$47,388,287
+
+RISK RECOMMENDATIONS
+--------------------------------------------------------------------
+  1. TIGHTEN CREDIT STANDARDS: Loans with DTI > 0.50 and LTV > 0.80
+     show 2.5x higher default probability — enforce stricter thresholds.
+  2. SECTOR CONCENTRATION: Reduce single-sector exposure to < 15% of
+     portfolio to limit systemic risk.
+  3. GRADE MONITORING: CCC & B-rated loans account for disproportionate
+     risk; increase monitoring frequency and collateral requirements.
+  4. RISK-ADJUSTED PRICING: Loans with Sharpe Ratio < 0.5 are under-
+     priced for their risk — reprice at origination.
+  5. VOLATILITY TRIGGERS: Implement alerts when 30-day rolling volatility
+     exceeds 20% for automatic review of impacted positions.
+  6. MODEL INTEGRATION: Deploy the Gradient Boosting classifier in the
+     origination pipeline for real-time risk scoring.
+
+OUTPUT FILES
+--------------------------------------------------------------------
+  01_eda_dashboard.png          — Portfolio EDA dashboard (9 panels)
+  02_correlation_matrix.png     — Full feature correlation heatmap
+  03_feature_risk_correlation.png — Feature vs default correlation
+  04_trend_volatility.png       — Temporal trends (4 panels)
+  05_model_confusion_matrices.png — 3-model confusion matrices
+  06_feature_importance.png     — Random Forest feature importances
+  07_risk_score_distribution.png — Computed risk score histogram
+  08_sector_grade_risk.png      — Sector & grade heatmaps
+  09_sharpe_volatility.png      — Risk-adjusted return charts
+  10_pca_kmeans.png             — Unsupervised cluster analysis
+  financial_dataset_raw.csv     — Raw dataset (2 000 records)
+  financial_risk_report.txt     — This report
+
+====================================================================
+  END OF REPORT
+====================================================================
