@@ -1,0 +1,31 @@
+product_id,product_name,category,unit_price,reorder_point,reorder_qty,lead_time_days,base_demand
+P1001,Electronics Product 1,Electronics,1412,53,340,10,120
+P1002,Electronics Product 2,Electronics,2328,67,252,8,120
+P1003,Electronics Product 3,Electronics,3956,54,215,8,120
+P1004,Electronics Product 4,Electronics,2291,79,458,7,120
+P1005,Electronics Product 5,Electronics,2128,141,479,13,120
+P1006,Apparel Product 1,Apparel,651,107,342,5,200
+P1007,Apparel Product 2,Apparel,1754,70,416,7,200
+P1008,Apparel Product 3,Apparel,769,69,310,7,200
+P1009,Apparel Product 4,Apparel,409,61,394,5,200
+P1010,Apparel Product 5,Apparel,935,94,335,5,200
+P1011,Home & Kitchen Product 1,Home & Kitchen,2181,118,263,7,150
+P1012,Home & Kitchen Product 2,Home & Kitchen,622,120,350,8,150
+P1013,Home & Kitchen Product 3,Home & Kitchen,1781,123,298,4,150
+P1014,Home & Kitchen Product 4,Home & Kitchen,487,134,316,6,150
+P1015,Home & Kitchen Product 5,Home & Kitchen,626,79,251,7,150
+P1016,Automotive Product 1,Automotive,3077,108,386,12,80
+P1017,Automotive Product 2,Automotive,3832,95,307,20,80
+P1018,Automotive Product 3,Automotive,2987,139,236,19,80
+P1019,Automotive Product 4,Automotive,6001,71,473,21,80
+P1020,Automotive Product 5,Automotive,2805,70,436,16,80
+P1021,Sports Product 1,Sports,1505,131,485,8,100
+P1022,Sports Product 2,Sports,3204,91,228,8,100
+P1023,Sports Product 3,Sports,3766,54,361,11,100
+P1024,Sports Product 4,Sports,1496,58,308,10,100
+P1025,Sports Product 5,Sports,1270,133,455,11,100
+P1026,FMCG Product 1,FMCG,379,108,273,4,300
+P1027,FMCG Product 2,FMCG,121,81,487,4,300
+P1028,FMCG Product 3,FMCG,432,124,419,5,300
+P1029,FMCG Product 4,FMCG,235,78,270,5,300
+P1030,FMCG Product 5,FMCG,96,146,224,2,300
