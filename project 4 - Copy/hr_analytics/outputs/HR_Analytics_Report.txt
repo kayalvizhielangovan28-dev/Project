@@ -1,0 +1,26 @@
+HR ANALYTICS — ATTRITION PREDICTION REPORT
+============================================================
+
+Dataset: 1470 employees, 32 features
+Attrition rate: 28.0%
+
+MODEL PERFORMANCE:
+                     accuracy  precision    recall        f1   roc_auc
+Logistic Regression  0.724490   0.518519  0.170732  0.256881  0.629947
+Decision Tree        0.687075   0.380952  0.195122  0.258065  0.527554
+Random Forest        0.724490   1.000000  0.012195  0.024096  0.634434
+Gradient Boosting    0.683673   0.365854  0.182927  0.243902  0.603543
+SVM                  0.717687   0.333333  0.012195  0.023529  0.632823
+
+TOP 10 ATTRITION DRIVERS:
+MonthlyRate          0.060829
+DailyRate            0.059739
+DistanceFromHome     0.050159
+CareerStability      0.046809
+HourlyRate           0.046432
+YearsAtCompany       0.044824
+IncomeToAge          0.044340
+Age                  0.042951
+TotalWorkingYears    0.042853
+MonthlyIncome        0.041239
+
